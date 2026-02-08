@@ -1,7 +1,7 @@
 @echo off
 REM Create branch (ignore error if it already exists)
-git checkout -b logo-art 2>nul
-IF ERRORLEVEL 1 git checkout logo-art
+git checkout -b logo-art1 2>nul
+IF ERRORLEVEL 1 git checkout logo-art1
 
 REM Create a file so we can commit
 echo Legacy commit from Feb 11, 2015> legacy.txt
